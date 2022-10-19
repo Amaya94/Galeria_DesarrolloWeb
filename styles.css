@@ -5,9 +5,42 @@
 body{
     background-color: #000924;
 }
-#title{
+#titulos {
     color: white;
+    display: flex;
+    flex-direction: column;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
 }
+#title{
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+.descripciones{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: #707070;
+}
+.botones{
+    margin: 50px;
+    display: flex;
+    gap: 400px;
+}
+.btn{
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #39A95E;
+    color: white;
+    width: 120PX;
+}
+.btn:hover{
+    background-color: white;
+    border: #39A95E 2px solid;
+    transition: .3s;
+    color: black;
+}
+
